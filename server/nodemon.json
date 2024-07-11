@@ -1,6 +1,0 @@
-{
-  "watch": ["*.js", "src/*"],
-  "ext": "js,json",
-  "ignore": ["node_modules/*"],
-  "exec": "bun run start"
-}

@@ -5,12 +5,15 @@
   "devDependencies": {
     "@types/bun": "latest"
   },
-  "peerDependencies": {},
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
   "dependencies": {
     "express": "^4.19.2",
     "mongoose": "^8.5.0",
     "nodemon": "^3.1.4"
-  },
+  }
+  ,
   "scripts": {
     "start": "nodemon index.js"
   }
