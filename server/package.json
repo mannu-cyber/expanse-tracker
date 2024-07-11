@@ -1,0 +1,17 @@
+{
+  "name": "server",
+  "module": "index.js",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {},
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.5.0",
+    "nodemon": "^3.1.4"
+  },
+  "scripts": {
+    "start": "nodemon index.js"
+  }
+}
